@@ -1,0 +1,5 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*causing the browser to calculate the width/height of the element counting not only its content (as seen in the content-box ), but also considering the padding and border of the element.*/
+}
