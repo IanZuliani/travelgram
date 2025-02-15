@@ -1,5 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;/*causing the browser to calculate the width/height of the element counting not only its content (as seen in the content-box ), but also considering the padding and border of the element.*/
+    box-sizing: border-box;/*causing the browser to calculate the width/height of the element counting not only its content (as seen in the content-box ), but also considering the padding and border of the element.*/    
+}
+
+:root {
+    --brand-color: #EF5F4C;
+    --shape-transparency: #ffffff91;
+    --skeleton-color: #D9D9D9;
+    --surface-color:#F5F5F5;
+    --background-color: #FFFFFF;
+    --text-color-primary: #313131;
+    --text-color-secondary: #6C6C6C;
+
+}
+
+body {
+    color: var(--text-color-secondary);/*Use variable*/
+    background-color: var(--background-color);
 }
