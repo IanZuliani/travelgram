@@ -1,0 +1,24 @@
+nav{
+    display: flex; /*elementos ficam um do lado do outro na nossa nav*/
+    justify-content: space-between;/* Colocando espaco entre as caixas do nav*/
+    align-items: center;/*Alinhar os itens no centro*/
+
+    line-height: 0;/*TIra qyalquer espaco extra que existe  dos navegadores*/
+    padding-block: 20px;/*Vai olhar para o eixo Y sendo espado de cima e de baixo - podemos colocar 2 propriedades, um valor para cima e um para baixo ou uma propriedade para os dois*/
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;/*Utilizando o Flex poodemos colocar um espacamento entre os elementos de 20px*/
+
+    padding-block: 8px;/*Vai olhar para o eixo Y sendo espado de cima e de baixo - podemos colocar 2 propriedades, um valor para cima e um para baixo ou uma propriedade para os dois*/
+
+}
+
+nav ul li:last-child img {/*Pega a ultima imagem de LI o primeiro e a lupa o ultimo e a imagem*/
+    width: 40px;
+    height: 40px;
+    object-fit: cover;/*Qual o encaixe do OBJ, deve ser do tipo cover*/
+    border-radius: 50%;
+}

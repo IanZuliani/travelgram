@@ -27,4 +27,12 @@ body {
     background-color: var(--background-color);
 }
 
+a {
+    text-decoration: none;/*Vamos tirar a decoracap do Link a*/
+    color: inherit;/*A cor deve ser herdada, por padrao a cor e azul, tiramos a propriedade do navegador e vai pegar a cor do Body*/
+}
 
+a:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
+}
