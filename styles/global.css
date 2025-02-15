@@ -36,3 +36,13 @@ a:hover {
     color: var(--brand-color);
     text-decoration: underline;
 }
+
+.container {/*Criar uma classe a nivel de container que podemos utilizar nas outras partes do projeto*/
+padding-inline: 32px;/*Serve para o Eixo X do lado esquerdo e direito*/
+max-width: 1280px;/*Colocando uma largura maxima no projeto*/
+margin-inline: auto;/*Siguinifica que vai mecher apenas do lado direito e esquerdo, deixando automatico as laterais ou centralizado*/
+}
+
+.bg-surface-color{/*Adicionando um acor de fundo*/
+    background-color: var(--surface-color);
+}
