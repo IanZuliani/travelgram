@@ -1,0 +1,39 @@
+header{
+    padding-block: 32px;/*Vai olhar para o eixo Y sendo espado de cima e de baixo - podemos colocar 2 propriedades, um valor para cima e um para baixo ou uma propriedade para os dois*/
+    font: var(--text-md);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;/*Falando para o flex jogar um item para cada lado deixando um espacamento entre eles*/
+    align-items: center;/*Centralizando esses itens*/
+}
+
+#profile {
+    display: flex;/*Uma informacao do lado do outro*/
+    gap: 32px;/*Utilizando o Flex poodemos colocar um espacamento entre os elementos de 32px*/
+}
+
+#profile > div{/*Primeiro filho de Profile no caso e a div*/
+    max-width: 385px; /*largura maxima de 384px*/
+}
+
+#profile h1{
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+    margin-bottom: 8px;
+}
+
+#info {
+    list-style: none;
+    display: flex; /*Vamos colocar como display flex para ficar um do lado do outro*/
+    flex-direction: column;/*mas vamos informar que e column para ficar um embaixo do outro para podermos utilizar o gap entre eles*/
+    gap: 16px;/*Espaco entre os elementos*/
+    width: 280px;/*Tamanho da caixa*/
+}
+
+#info li{/* vamos trabalhar com os icones botando displau flex na li*/
+    display: flex;/*Vamos colocar display flex nas a li para trabalharmos os espacamentos entre os itens*/
+    align-items: center;/*Centralizando os itens da li*/
+    gap: 8px;
+}
