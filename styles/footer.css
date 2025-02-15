@@ -2,6 +2,8 @@ footer {
     display: flex;
     gap: 24px;/*Espacamento entre os elementos*/
     padding-block: 24px;/*Vai olhar para o eixo Y sendo espado de cima e de baixo - podemos colocar 2 propriedades, um valor para cima e um para baixo ou uma propriedade para os dois*/
+
+    font: 14px/150% var(--font-family);
 }
 
 footer span:nth-child(1){/*Fiilho de numero 1, definimos que o filho 1 e um span, se foce a teriamos que colocar a */

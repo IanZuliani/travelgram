@@ -18,6 +18,13 @@ header .container {
     max-width: 385px; /*largura maxima de 384px*/
 }
 
+#profile img{/*Definindo o tamanho da imagem*/
+    width: 176px;
+    height: 176px;
+    object-fit: cover;/*caso o tamanho da tela muda e preenchido automatico o espacamento*/
+    border-radius: 50%;/*colocando a imagem com borda*/
+}
+
 #profile h1{
     font: var(--text-lg);
     color: var(--text-color-primary);
